@@ -12,7 +12,7 @@ class ContactController extends Controller
     public function index()
     {
         return view('contact', [
-            'title'     => 'contact',
+            'title'     => 'Contact',
             'nama'      => 'Nama kalian',
             'kelas'     => 'Kelas kalian',
             'linkedin'  => 'alamat url linkedin',
