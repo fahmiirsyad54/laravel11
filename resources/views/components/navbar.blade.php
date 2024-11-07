@@ -12,6 +12,7 @@
                         <x-nav-link href="/home" :active="request()->is('home')" >Home</x-nav-link>
                         <x-nav-link href="/contact" :active="request()->is('contact')" >Contact</x-nav-link>
                         <x-nav-link href="/students" :active="request()->is('students')" >Students</x-nav-link>
+                        <x-nav-link href="/grades" :active="request()->is('grades')" >Grades</x-nav-link>
                     </div>
                 </div>
             </div>
